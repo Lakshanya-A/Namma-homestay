@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NammaHomeStay" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary_brown</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/surface_cream</item>
+        <item name="colorOnPrimaryContainer">@color/text_dark_brown</item>
+
+        <item name="colorSecondary">@color/secondary_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="colorTertiary">@color/accent_purple</item>
+        <item name="colorOnTertiary">@color/white</item>
+
+        <item name="android:windowBackground">@color/warm_background</item>
+        <item name="android:statusBarColor">@color/warm_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.NammaHomeStay" parent="Base.Theme.NammaHomeStay" />
+</resources>

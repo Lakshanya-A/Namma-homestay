@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F2">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF8F2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tvMenuHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍲 Homestay Menu"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#5D4037" />
+
+            <TextView
+                android:id="@+id/tvMenuSubHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manage your delicious dishes"
+                android:textSize="14sp"
+                android:textColor="#8D6E63"
+                android:layout_marginTop="4dp" />
+
+            <Button
+                android:id="@+id/btnAddNewDish"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="➕ Add New Dish"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#43A047"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDishes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

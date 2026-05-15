@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Warm & Professional Palette -->
+    <color name="primary_brown">#5D4037</color>
+    <color name="primary_light_brown">#8D6E63</color>
+    <color name="secondary_green">#43A047</color>
+    <color name="warm_background">#FFF8F2</color>
+    <color name="accent_purple">#7E57C2</color>
+    <color name="text_dark_brown">#3E2723</color>
+    <color name="hint_brown">#A1887F</color>
+    <color name="surface_cream">#FDF2E9</color>
+</resources>
